@@ -1,0 +1,89 @@
+🖥️ Linux Bash Script Journey 🚀
+👨‍💻 About the Project
+Welcome to my Bash script adventure! 🎉
+This project represents my journey through the world of Bash scripting, where I learn to create and refine automation tools for system administration on Linux. The scripts here are designed to simplify and speed up everyday tasks while I deepen my knowledge of Linux and server management. 🖥️⚙️
+
+🎯 Purpose
+Learn more about Bash and Linux system administration.
+Build useful tools for system administrators, for myself and anyone who wants to use them.
+Automate repetitive tasks like user management, system logs, and network monitoring.
+This is a space where I can test new ideas, build new tools, and get better at working with Linux! 🙌
+
+📂 What's in the Project?
+This project contains a collection of Bash scripts that perform various system administration tasks:
+
+📈 Automation for system management and backups.
+👥 User and group management to simplify administration.
+📂 File management: create, clean up, and move files automatically.
+🌐 Network monitoring: small scripts to track server status and network usage.
+📝 First Script: User Input Greeting
+The first script in this repo is a simple Bash script that takes user input and greets the user.
+
+Script greet_user.sh
+This script prompts for the user's name and greets them with a personalized message.
+
+bash
+#!/bin/bash
+
+# Ask the user for their name
+echo "What's your name?"
+
+# Read user input
+read name
+
+# Greet the user
+echo "Hello, $name! Welcome to the Linux Bash Script Journey!"
+How it Works:
+The script prints a prompt: What's your name?
+It waits for the user to input their name (this is done using the read command).
+The script greets the user with their name, for example, "Hello, Karl! Welcome to the Linux Bash Script Journey!"
+Run the Script:
+Clone the repo:
+
+bash
+Kopiera
+Redigera
+git clone https://github.com/KernelKarl/-Linux-Bash-Script-Journey.git
+Make the script executable:
+
+bash
+Kopiera
+Redigera
+chmod +x greet_user.sh
+Run the script:
+
+bash
+Kopiera
+Redigera
+./greet_user.sh
+🚀 How to Get Started?
+Here’s how you can quickly get started:
+
+Clone the repo:
+
+bash
+Kopiera
+Redigera
+git clone https://github.com/KernelKarl/-Linux-Bash-Script-Journey.git
+Make the script executable:
+
+bash
+Kopiera
+Redigera
+chmod +x script_name.sh
+Run the script and let the magic happen:
+
+bash
+Kopiera
+Redigera
+./script_name.sh
+💡 Contribute
+Got any ideas on how to improve or add new features? Feel free to contribute! Create a pull request, and I’ll check it out as soon as I can. Together, we can make this project even better! ✨
+
+📝 License
+This project is licensed under the MIT license, so you can use and modify the scripts however you want. 🎉 See LICENSE for more details.
+
+🌟 Future Plans:
+Create documentation for each script.
+Improve security and usability.
+Add more advanced admin scripts for server automation and monitoring.
