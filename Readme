@@ -1,6 +1,6 @@
-🖥️ Linux Bash Script Journey 🚀
+# 🖥️ **Linux Bash Script Journey** 🚀
 
- 📌 Innehållsförteckning / Table of Contents
+## 📌 **Innehållsförteckning / Table of Contents**
 
 - [Om Projektet / About the Project](#om-projektet-about-the-project)
 - [Syfte / Purpose](#syfte-purpose)
@@ -9,51 +9,46 @@
   - [📂 backup.sh (Backup-skript / Backup Script)](#backupsh-backup-skript-backup-script)
 - [Installation & Användning / Installation & Usage](#installation--användning-installation--usage)
 - [Framtida Planer / Future Plans](#framtida-planer-future-plans)
-- [Bidra / Contribute](#bidra-contribute)
-- [Licens / License](#licens-license)
 
 ---
 
-🎯 Om Projektet / About the Project
+## 🎯 **Om Projektet / About the Project**
 
-**Svenska:**
-Välkommen till mitt Bash-skriptäventyr! 🎉 Detta projekt representerar min resa genom Bash-skriptning och Linux-administration. Jag har skapat dessa skript för att förenkla systemhantering, automatisera uppgifter och förbättra mina färdigheter inom Linux.
+**Svenska:**  
+Välkommen till mitt Bash-skriptäventyr! 🎉 Detta repo representerar min resa genom Bash-skriptning och Linux-administration. Jag bygger verktyg för att förenkla systemhantering, automatisera uppgifter och förbättra mina färdigheter inom Linux.
 
-**English:**
-Welcome to my Bash script adventure! 🎉 This project represents my journey through Bash scripting and Linux administration. I’ve created these scripts to simplify system management, automate tasks, and improve my skills in Linux.
+**English:**  
+Welcome to my Bash script adventure! 🎉 This repo represents my journey through Bash scripting and Linux administration. I’m building tools to simplify system management, automate tasks, and improve my skills in Linux.
 
 ---
 
- 🔥 Syfte / Purpose
+## 🔥 **Syfte / Purpose**
 
 **Svenska:**
-- Lära mig mer om Bash och Linux-administration
-- Skapa användbara verktyg för systemadministratörer
-- Automatisera uppgifter som filhantering, loggar och nätverksövervakning
+- Lära mig mer om Bash och Linux-administration  
+- Skapa användbara verktyg för systemadministratörer  
+- Automatisera uppgifter som filhantering, loggar och nätverksövervakning  
 - Utforska och experimentera med nya idéer
 
-**English:**
-- Learn more about Bash and Linux administration
-- Create useful tools for system administrators
-- Automate tasks like file management, logs, and network monitoring
+**English:**  
+- Learn more about Bash and Linux administration  
+- Create useful tools for system administrators  
+- Automate tasks like file management, logs, and network monitoring  
 - Explore and experiment with new ideas
 
 ---
 
- 📂 Skript i Projektet / Scripts in the Project
+## 📂 **Skript i Projektet / Scripts in the Project**
 
-### 👋 greet_user.sh (Hälsningsskript / Greeting Script)
-
-**Svenska:**
-Detta skript tar emot användarens namn och hälsar personen med en personlig hälsning. Det är ett enkelt exempel på hur man kan interagera med användaren via terminalen. Jag har lärt mig grunderna i att läsa in användarinput och använda variabler i Bash.
-
-**English:**
-This script takes the user’s name and greets them with a personalized message. It serves as a simple example of user interaction via the terminal. I've learned the basics of reading user input and using variables in Bash.
+### 👋 **greet_user.sh (Hälsningsskript / Greeting Script)**  
+Detta skript tar emot användarens namn och hälsar personen med en personlig hälsning.  
+**English:** This script takes the user’s name and greets them with a personalized message.
 
 **Kodexempel / Code Example:**
 
 ```bash
 #!/bin/bash
+
 # Fråga efter användarens namn / Ask for user's name
 echo "What's your name?"
 
@@ -61,4 +56,4 @@ echo "What's your name?"
 read name
 
 # Hälsa användaren / Greet the user
-echo "Hello, \$name! Welcome to the Linux Bash Script Journey!"
+echo "Hello, $name! Welcome to the Linux Bash Script Journey!"
