@@ -40,10 +40,7 @@ English: This script takes the user’s name and greets them with a personalized
 
 Kodexempel / Code Example:
 
-bash
-Kopiera
-Redigera
-#!/bin/bash
+bash#!/bin/bash
 
 # Fråga efter användarens namn / Ask for user's name
 echo "What's your name?"
@@ -57,16 +54,15 @@ Funktioner / Features:
 
 Tar emot användarens namn / Takes the user's name
 Visar en personlig hälsning / Shows a personalized greeting
+
+
 📂 backup.sh (Backup-skript / Backup Script)
 Detta skript skapar en säkerhetskopia av filer med en viss filtilläggstyp inom användarens hemkatalog.
 English: This script creates a backup of files with a certain extension type within the user's home directory.
 
 Kodexempel / Code Example:
 
-bash
-Kopiera
-Redigera
-#!/bin/bash  
+bash#!/bin/bash  
 # Backup Script  
 # Author: kjn
 
@@ -109,17 +105,19 @@ chmod +x greet_user.sh backup.sh
 ./greet_user.sh
 ./backup.sh
 
-🛠️ Användningsområden / Use Cases
+🛠️ Användningsområden för scripeten / Use Cases
 
 greet_user.sh:
 
 Personlig användning: Använd detta skript för att få en personlig hälsning när du startar ett nytt terminalpass eller när du kör en bash-session.
 Automatisering i systemunderhåll: Integrera detta skript i större automationsflöden som ett sätt att välkomna användare som loggar in på systemet.
-backup.sh:
 
+backup.sh
 Regelbunden säkerhetskopiering: Använd detta skript för att skapa säkerhetskopior av specifika filtyper i din användarmapp, till exempel för dokument, bilder eller script.
 Batch-processer för säkerhetskopiering: Om du har många användare eller flera system kan du anpassa skriptet för att köras regelbundet för säkerhetskopiering av filer baserat på tillägg.
 Filhantering och organisation: Använd skriptet för att hålla ordning på viktiga filer och enkelt säkerhetskopiera dem vid behov.
+
+
 🌟 Framtida Planer / Future Plans
 
 ✅ Lägga till mer avancerade Bash-skript / Add more advanced Bash scripts
