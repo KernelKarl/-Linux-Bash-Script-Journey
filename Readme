@@ -1,25 +1,29 @@
-️ Linux Bash Script Journey
+# Linux Bash Script Journey
+
 Welcome to my Bash script adventure! 🚀 This project is my ongoing journey into the world of Bash scripting, where I create and refine automation tools for Linux system administration. The goal is to make everyday tasks quicker and easier, while also leveling up my Linux and server management skills.
 
-Purpose
-Learn and grow my skills in Bash and Linux system administration.
-Build cool and useful tools for system administrators (including myself!).
-Automate those repetitive tasks that eat up time—like user management, system logs, and network monitoring.
+## Purpose
+
+- Learn and grow my skills in Bash and Linux system administration.
+- Build cool and useful tools for system administrators (including myself!).
+- Automate those repetitive tasks that eat up time—like user management, system logs, and network monitoring.
+
 This is my playground to experiment, build, and improve my Linux skills, one script at a time!
 
-What's in the Project?
+## What's in the Project?
+
 This project showcases my progress in Bash scripting. Here you’ll find a growing collection of Bash scripts that I’ve written to learn new tricks, test out different solutions, and gradually level up to more advanced scripts that will help with Linux system administration tasks.
 
-First Script: User Input Greeting (greet_user.sh)
+## First Script: User Input Greeting (`greet_user.sh`)
+
 First up, we have a simple yet effective script that takes user input and greets the user with a personalized message. To make things more fun, I’ve added some color to the output—because why not?
 
-Script Overview
-bash
-Kopiera
-Redigera
+### Script Overview
+
+```bash
 #!/bin/bash
-# Simple User Greeting with Colors
-# This script will greet the user and add some visual flair!
+# Simple User Greeting
+# This script will greet the user in a personalized way
 
 # Function to print text in color
 print_in_color() {
@@ -46,33 +50,90 @@ echo "Welcome to the Linux Bash Script Journey!"
 
 # Add a fun quote or note
 print_in_color "Keep learning, keep coding!" "35" # Magenta
-How it Works
+How it Works:
 The script asks: "What's your name?"
 It waits for user input using the read command.
 If a name is entered, it greets the user with their name (e.g., "Hello, Karl! Welcome to the Linux Bash Script Journey!").
-If no name is provided, it lets the user know they need to enter a valid name.
-How to Get Started
+If no name is provided, it asks for a valid name.
+How to Get Started:
 Clone the repository:
-
 bash
 Kopiera
 Redigera
 git clone https://github.com/KernelKarl/-Linux-Bash-Script-Journey.git
-Make the script executable:
-
-bash
-Kopiera
-Redigera
+Make the script executabla
 chmod +x greet_user.sh  # Or chmod +x *.sh for all scripts
 Run the script:
-
 bash
-Kopiera
-Redigera
 ./greet_user.sh
 Enjoy your personalized greeting and start your journey into the world of Bash scripting! 😎
 
+Second Script: Backup Script (backup.sh)
+This script backs up files of a specific type from your home directory to a specified backup directory.
+
+Script Overview
+bash
+#!/bin/bash
+# Backup Script
+# Author: kjn
+
+echo "📂 Backup Script"
+echo "============================="
+echo "This script backs up files of a specific type."
+echo "Files are searched in your home directory and can only be saved within \$HOME."
+
+echo "🔍 Enter file extension (e.g., .sh, .txt, .jpg)"
+read -p "File type: " files_suffix
+
+# Validate input
+if [[ -z "$files_suffix" ]]; then
+    echo "❌ No file extension provided. Exiting..."
+    exit 1
+fi
+
+echo "📂 Enter the backup directory"
+read -p "Backup directory: " dir_name
+
+# Check if the directory name is empty
+if [[ -z "$dir_name" ]]; then
+    echo "❌ No directory provided. Exiting..."
+    exit 1
+fi
+
+# Check if the directory exists, create it if not
+if [ ! -d "$dir_name" ]; then
+    echo "Backup directory does not exist. Creating the directory..."
+    mkdir -p "$dir_name"
+fi
+
+# Create the backup
+echo "Searching for files with the extension $files_suffix..."
+find $HOME -type f -name "*$files_suffix" -exec cp {} $dir_name \;
+
+echo "✅ Backup completed. Files saved to $dir_name."
+How it Works:
+The script prompts for the file extension (e.g., .sh, .txt) and a backup directory.
+It validates input and creates the directory if it doesn't exist.
+It then finds and copies the files of the specified type from the home directory to the backup directory.
+How to Get Started:
+Clone the repository:
+bash
+
+git clone https://github.com/KernelKarl/-Linux-Bash-Script-Journey.git
+Make the script executable:
+bash
+Kopiera
+Redigera
+chmod +x backup.sh  # Or chmod +x *.sh for all scripts
+Run the script:
+bash
+./backup.sh
 Future Plans
 This project is just getting started, and there’s plenty more to come. I'll continue building new scripts to automate common tasks and tackle even more advanced Bash challenges along the way.
 
 Feel free to explore, contribute, or just be inspired by the scripts! Let’s learn and grow together! 💡
+
+
+### What’s included:
+- **First Script**: A user input greeting script that asks for a name and greets the user.
+- **Second Script**: A backup script that copies files with a specific extension from the home directory to a backup directory.
