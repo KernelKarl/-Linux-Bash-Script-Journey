@@ -1,61 +1,70 @@
-<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="_Linux_Bash_Script_Journey__0"></a>🖥️ Linux Bash Script Journey 🚀</h1>
-<h2 class="code-line" data-line-start=2 data-line-end=3 ><a id="_Innehllsfrteckning__Table_of_Contents_2"></a>📌 Innehållsförteckning / Table of Contents</h2>
-<ul>
-<li class="has-line-data" data-line-start="4" data-line-end="5"><a href="#om-projektet-about-the-project">Om Projektet / About the Project</a></li>
-<li class="has-line-data" data-line-start="5" data-line-end="6"><a href="#syfte-purpose">Syfte / Purpose</a></li>
-<li class="has-line-data" data-line-start="6" data-line-end="9"><a href="#skript-i-projektet-scripts-in-the-project">Skript i Projektet / Scripts in the Project</a>
-<ul>
-<li class="has-line-data" data-line-start="7" data-line-end="8"><a href="#greet_usersh-h%C3%A4lsningsskript-greeting-script">👋 greet_user.sh (Hälsningsskript / Greeting Script)</a></li>
-<li class="has-line-data" data-line-start="8" data-line-end="9"><a href="#backupsh-backup-skript-backup-script">📂 backup.sh (Backup-skript / Backup Script)</a></li>
-</ul>
-</li>
-<li class="has-line-data" data-line-start="9" data-line-end="10"><a href="#installation--anv%C3%A4ndning-installation--usage">Installation &amp; Användning / Installation &amp; Usage</a></li>
-<li class="has-line-data" data-line-start="10" data-line-end="11"><a href="#framtida-planer-future-plans">Framtida Planer / Future Plans</a></li>
-<li class="has-line-data" data-line-start="11" data-line-end="12"><a href="#bidra-contribute">Bidra / Contribute</a></li>
-<li class="has-line-data" data-line-start="12" data-line-end="14"><a href="#licens-license">Licens / License</a></li>
-</ul>
-<hr>
-<h2 class="code-line" data-line-start=16 data-line-end=17 ><a id="_Om_Projektet__About_the_Project_16"></a>🎯 Om Projektet / About the Project</h2>
-<p class="has-line-data" data-line-start="18" data-line-end="20"><strong>Svenska:</strong><br>
-Välkommen till mitt Bash-skriptäventyr! 🎉 Detta projekt representerar min resa genom Bash-skriptning och Linux-administration. Jag har skapat dessa skript för att förenkla systemhantering, automatisera uppgifter och förbättra mina färdigheter inom Linux.</p>
-<p class="has-line-data" data-line-start="21" data-line-end="23"><strong>English:</strong><br>
-Welcome to my Bash script adventure! 🎉 This project represents my journey through Bash scripting and Linux administration. I’ve created these scripts to simplify system management, automate tasks, and improve my skills in Linux.</p>
-<hr>
-<h2 class="code-line" data-line-start=26 data-line-end=27 ><a id="_Syfte__Purpose_26"></a>🔥 Syfte / Purpose</h2>
-<p class="has-line-data" data-line-start="28" data-line-end="29"><strong>Svenska:</strong></p>
-<ul>
-<li class="has-line-data" data-line-start="29" data-line-end="30">Lära mig mer om Bash och Linux-administration</li>
-<li class="has-line-data" data-line-start="30" data-line-end="31">Skapa användbara verktyg för systemadministratörer</li>
-<li class="has-line-data" data-line-start="31" data-line-end="32">Automatisera uppgifter som filhantering, loggar och nätverksövervakning</li>
-<li class="has-line-data" data-line-start="32" data-line-end="34">Utforska och experimentera med nya idéer</li>
-</ul>
-<p class="has-line-data" data-line-start="34" data-line-end="35"><strong>English:</strong></p>
-<ul>
-<li class="has-line-data" data-line-start="35" data-line-end="36">Learn more about Bash and Linux administration</li>
-<li class="has-line-data" data-line-start="36" data-line-end="37">Create useful tools for system administrators</li>
-<li class="has-line-data" data-line-start="37" data-line-end="38">Automate tasks like file management, logs, and network monitoring</li>
-<li class="has-line-data" data-line-start="38" data-line-end="40">Explore and experiment with new ideas</li>
-</ul>
-<hr>
-<h2 class="code-line" data-line-start=42 data-line-end=43 ><a id="_Skript_i_Projektet__Scripts_in_the_Project_42"></a>📂 Skript i Projektet / Scripts in the Project</h2>
-<h3 class="code-line" data-line-start=44 data-line-end=45 ><a id="_greet_usersh_Hlsningsskript__Greeting_Script_44"></a>👋 greet_user.sh (Hälsningsskript / Greeting Script)</h3>
-<p class="has-line-data" data-line-start="46" data-line-end="48"><strong>Svenska:</strong><br>
-Detta skript tar emot användarens namn och hälsar personen med en personlig hälsning. Det är ett enkelt exempel på hur man kan interagera med användaren via terminalen. Jag har lärt mig grunderna i att läsa in användarinput och använda variabler i Bash.</p>
-<p class="has-line-data" data-line-start="49" data-line-end="51"><strong>English:</strong><br>
-This script takes the user’s name and greets them with a personalized message. It serves as a simple example of user interaction via the terminal. I’ve learned the basics of reading user input and using variables in Bash.</p>
-<p class="has-line-data" data-line-start="52" data-line-end="53"><strong>Kodexempel / Code Example:</strong></p>
-<pre><code class="has-line-data" data-line-start="55" data-line-end="168" class="language-bash"><span class="hljs-shebang">#!/bin/bash</span>
-<span class="hljs-comment"># Fråga efter användarens namn / Ask for user's name</span>
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"What's your name?"</span>
+# 🖥️ Linux Bash Script Journey 🚀
 
-<span class="hljs-comment"># Läs in användarens input / Read user's input</span>
-<span class="hljs-built_in">read</span> name
+## 📌 Innehållsförteckning / Table of Contents
 
-<span class="hljs-comment"># Hälsa användaren / Greet the user</span>
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"Hello, \$name! Welcome to the Linux Bash Script Journey!"</span>
+- [Om Projektet / About the Project](#om-projektet-about-the-project)
+- [Syfte / Purpose](#syfte-purpose)
+- [Skript i Projektet / Scripts in the Project](#skript-i-projektet-scripts-in-the-project)
+  - [👋 greet_user.sh (Hälsningsskript / Greeting Script)](#greet_usersh-hälsningsskript-greeting-script)
+  - [📂 backup.sh (Backup-skript / Backup Script)](#backupsh-backup-skript-backup-script)
+- [Installation & Användning / Installation & Usage](#installation--användning-installation--usage)
+- [Framtida Planer / Future Plans](#framtida-planer-future-plans)
+- [Bidra / Contribute](#bidra-contribute)
+- [Licens / License](#licens-license)
+
+---
+
+## 🎯 Om Projektet / About the Project
+
+**Svenska:**
+Välkommen till mitt Bash-skriptäventyr! 🎉 Detta projekt representerar min resa genom Bash-skriptning och Linux-administration. Jag har skapat dessa skript för att förenkla systemhantering, automatisera uppgifter och förbättra mina färdigheter inom Linux.
+
+**English:**
+Welcome to my Bash script adventure! 🎉 This project represents my journey through Bash scripting and Linux administration. I’ve created these scripts to simplify system management, automate tasks, and improve my skills in Linux.
+
+---
+
+## 🔥 Syfte / Purpose
+
+**Svenska:**
+- Lära mig mer om Bash och Linux-administration
+- Skapa användbara verktyg för systemadministratörer
+- Automatisera uppgifter som filhantering, loggar och nätverksövervakning
+- Utforska och experimentera med nya idéer
+
+**English:**
+- Learn more about Bash and Linux administration
+- Create useful tools for system administrators
+- Automate tasks like file management, logs, and network monitoring
+- Explore and experiment with new ideas
+
+---
+
+## 📂 Skript i Projektet / Scripts in the Project
+
+### 👋 greet_user.sh (Hälsningsskript / Greeting Script)
+
+**Svenska:**
+Detta skript tar emot användarens namn och hälsar personen med en personlig hälsning. Det är ett enkelt exempel på hur man kan interagera med användaren via terminalen. Jag har lärt mig grunderna i att läsa in användarinput och använda variabler i Bash.
+
+**English:**
+This script takes the user’s name and greets them with a personalized message. It serves as a simple example of user interaction via the terminal. I've learned the basics of reading user input and using variables in Bash.
+
+**Kodexempel / Code Example:**
+
+```bash
+#!/bin/bash
+# Fråga efter användarens namn / Ask for user's name
+echo "What's your name?"
+
+# Läs in användarens input / Read user's input
+read name
+
+# Hälsa användaren / Greet the user
+echo "Hello, \$name! Welcome to the Linux Bash Script Journey!"
 Viktigaste Funktioner / Key Features:
 
-Tar emot användarens namn / Takes the user<span class="hljs-string">'s name
+Tar emot användarens namn / Takes the user's name
 Visar en personlig hälsning / Shows a personalized greeting
 Användbarhet / Usefulness:
 
@@ -65,61 +74,61 @@ Användningsexempel / Usage Example:
 
 
 ./greet_user.sh
-# Output: What'</span>s your name?
-<span class="hljs-comment"># Input: Karl</span>
-<span class="hljs-comment"># Output: Hello, Karl! Welcome to the Linux Bash Script Journey!</span>
+# Output: What's your name?
+# Input: Karl
+# Output: Hello, Karl! Welcome to the Linux Bash Script Journey!
 📂 backup.sh (Backup-skript / Backup Script)
 Svenska:
 Detta skript skapar en säkerhetskopia av filer med en viss filtilläggstyp inom användarens hemkatalog. Det är användbart för att säkerställa att viktiga filer inte går förlorade. Jag har lärt mig hur man använder find-kommandot för att söka efter filer och cp för att kopiera dem.
 
 English:
-This script creates a backup of files with a certain extension <span class="hljs-built_in">type</span> within the user<span class="hljs-string">'s home directory. It is useful for ensuring that important files are not lost. I'</span>ve learned how to use the find <span class="hljs-built_in">command</span> to search <span class="hljs-keyword">for</span> files and cp to copy them.
+This script creates a backup of files with a certain extension type within the user's home directory. It is useful for ensuring that important files are not lost. I've learned how to use the find command to search for files and cp to copy them.
 
 Kodexempel / Code Example:
 
 
-<span class="hljs-shebang">#!/bin/bash</span>
-<span class="hljs-comment"># Backup Script</span>
-<span class="hljs-comment"># Author: kjn</span>
+#!/bin/bash
+# Backup Script
+# Author: kjn
 
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"📂 Backup Script"</span>
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"============================="</span>
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"This script backs up files of a specific type."</span>
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"Files are searched in your home directory and can only be saved within \\<span class="hljs-variable">$HOME</span>."</span>
+echo "📂 Backup Script"
+echo "============================="
+echo "This script backs up files of a specific type."
+echo "Files are searched in your home directory and can only be saved within \\$HOME."
 
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"🔍 Enter file extension (e.g., .sh, .txt, .jpg)"</span>
-<span class="hljs-built_in">read</span> -p <span class="hljs-string">"File type: "</span> files_suffix
+echo "🔍 Enter file extension (e.g., .sh, .txt, .jpg)"
+read -p "File type: " files_suffix
 
-<span class="hljs-comment"># Validate input</span>
-<span class="hljs-keyword">if</span> [[ -z <span class="hljs-string">"\$files_suffix"</span> ]]; <span class="hljs-keyword">then</span>
-    <span class="hljs-built_in">echo</span> <span class="hljs-string">"❌ No file extension provided. Exiting..."</span>
-    <span class="hljs-built_in">exit</span> <span class="hljs-number">1</span>
-<span class="hljs-keyword">fi</span>
+# Validate input
+if [[ -z "\$files_suffix" ]]; then
+    echo "❌ No file extension provided. Exiting..."
+    exit 1
+fi
 
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"📂 Enter the backup directory"</span>
-<span class="hljs-built_in">read</span> -p <span class="hljs-string">"Backup directory: "</span> dir_name
+echo "📂 Enter the backup directory"
+read -p "Backup directory: " dir_name
 
-<span class="hljs-comment"># Check if the directory name is empty</span>
-<span class="hljs-keyword">if</span> [[ -z <span class="hljs-string">"\$dir_name"</span> ]]; <span class="hljs-keyword">then</span>
-    <span class="hljs-built_in">echo</span> <span class="hljs-string">"❌ No directory provided. Exiting..."</span>
-    <span class="hljs-built_in">exit</span> <span class="hljs-number">1</span>
-<span class="hljs-keyword">fi</span>
+# Check if the directory name is empty
+if [[ -z "\$dir_name" ]]; then
+    echo "❌ No directory provided. Exiting..."
+    exit 1
+fi
 
-<span class="hljs-comment"># Check if the directory exists, create it if not</span>
-<span class="hljs-keyword">if</span> [ ! <span class="hljs-operator">-d</span> <span class="hljs-string">"\$dir_name"</span> ]; <span class="hljs-keyword">then</span>
-    <span class="hljs-built_in">echo</span> <span class="hljs-string">"Backup directory does not exist. Creating the directory..."</span>
-    mkdir -p <span class="hljs-string">"\$dir_name"</span>
-<span class="hljs-keyword">fi</span>
+# Check if the directory exists, create it if not
+if [ ! -d "\$dir_name" ]; then
+    echo "Backup directory does not exist. Creating the directory..."
+    mkdir -p "\$dir_name"
+fi
 
-<span class="hljs-comment"># Create the backup</span>
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"Searching for files with the extension \$files_suffix..."</span>
-find \<span class="hljs-variable">$HOME</span> -type f -name <span class="hljs-string">"*\$files_suffix"</span> -exec cp {} \<span class="hljs-variable">$dir_name</span> \;
+# Create the backup
+echo "Searching for files with the extension \$files_suffix..."
+find \$HOME -type f -name "*\$files_suffix" -exec cp {} \$dir_name \;
 
-<span class="hljs-built_in">echo</span> <span class="hljs-string">"✅ Backup completed. Files saved to \$dir_name."</span>
+echo "✅ Backup completed. Files saved to \$dir_name."
 Viktigaste Funktioner / Key Features:
 
 Användaren anger filtillägg och målkatalog / User specifies file extension and target directory
-Skriptet söker och kopierar filer inom <span class="hljs-variable">$HOME</span> / The script searches and copies files within <span class="hljs-variable">$HOME</span>
+Skriptet söker och kopierar filer inom $HOME / The script searches and copies files within $HOME
 Grundläggande validering för att förhindra fel / Basic validation to prevent errors
 Användbarhet / Usefulness:
 
@@ -129,17 +138,17 @@ Användningsexempel / Usage Example:
 
 
 ./backup.sh
-<span class="hljs-comment"># Output: 🔍 Enter file extension (e.g., .sh, .txt, .jpg)</span>
-<span class="hljs-comment"># Input: .txt</span>
-<span class="hljs-comment"># Output: 📂 Enter the backup directory</span>
-<span class="hljs-comment"># Input: /path/to/backup</span>
-<span class="hljs-comment"># Output: Searching for files with the extension .txt...</span>
-<span class="hljs-comment"># Output: ✅ Backup completed. Files saved to /path/to/backup</span>
-🚀 Installation &amp; Användning / Installation &amp; Usage
+# Output: 🔍 Enter file extension (e.g., .sh, .txt, .jpg)
+# Input: .txt
+# Output: 📂 Enter the backup directory
+# Input: /path/to/backup
+# Output: Searching for files with the extension .txt...
+# Output: ✅ Backup completed. Files saved to /path/to/backup
+🚀 Installation & Användning / Installation & Usage
 Klona repot / Clone the repo
 
-git <span class="hljs-built_in">clone</span> https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
-<span class="hljs-built_in">cd</span> Linux-Bash-Script-Journey
+git clone https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
+cd Linux-Bash-Script-Journey
 Gör skripten körbara / Make the scripts executable
 
 chmod +x greet_user.sh backup.sh
@@ -156,4 +165,4 @@ Om du vill bidra till detta projekt, följ dessa steg:
 
 Forka repot / Fork the repo
 Skapa en ny gren / Create a new branch
-Gör dina ändringar och skicka en pull request / Make your changes and submit a pull request</code></pre>
+Gör dina ändringar och skicka en pull request / Make your changes and submit a pull request
