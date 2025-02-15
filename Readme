@@ -1,6 +1,6 @@
- 🖥️ Linux Bash Script Journey 🚀
+# 🖥️ Linux Bash Script Journey 🚀
 
- 📌 Innehållsförteckning / Table of Contents
+## 📌 Innehållsförteckning / Table of Contents
 
 - [Om Projektet / About the Project](#om-projektet-about-the-project)
 - [Syfte / Purpose](#syfte-purpose)
@@ -14,7 +14,7 @@
 
 ---
 
-🎯 Om Projektet / About the Project
+## 🎯 Om Projektet / About the Project
 
 **Svenska:**
 Välkommen till mitt Bash-skriptäventyr! 🎉 Detta projekt representerar min resa genom Bash-skriptning och Linux-administration. Jag har skapat dessa skript för att förenkla systemhantering, automatisera uppgifter och förbättra mina färdigheter inom Linux.
@@ -131,7 +131,6 @@ Användaren anger filtillägg och målkatalog / User specifies file extension an
 Skriptet söker och kopierar filer inom $HOME / The script searches and copies files within $HOME
 Grundläggande validering för att förhindra fel / Basic validation to prevent errors
 Användbarhet / Usefulness:
-
 Säkerställer att viktiga filer backas upp regelbundet.
 Lär ut hur man använder find och cp för filhantering i Bash.
 Användningsexempel / Usage Example:
@@ -147,15 +146,16 @@ Användningsexempel / Usage Example:
 🚀 Installation & Användning / Installation & Usage
 Klona repot / Clone the repo
 
-git clone https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
+git c https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
 cd Linux-Bash-Script-Journey
 Gör skripten körbara / Make the scripts executable
 
 chmod +x greet_user.sh backup.sh
 Kör skripten / Run the scripts
-
 ./greet_user.sh
 ./backup.sh
+
+
 🌟 Framtida Planer / Future Plans
 Lägga till mer avancerade Bash-skript / Add more advanced Bash scripts
 Skapa fler repos med inriktningar på olika områden / Create more repos with focuses on different areas
