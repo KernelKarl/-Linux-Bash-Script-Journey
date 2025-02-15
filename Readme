@@ -1,17 +1,14 @@
 🖥️ Linux Bash Script Journey 🚀
-
 Innehållsförteckning / Table of Contents
-
-Om Projektet / About the Project
-Syfte / Purpose
-Skript i Projektet / Scripts in the Project
+🎯 Om Projektet / About the Project
+🔥 Syfte / Purpose
+📂 Skript i Projektet / Scripts in the Project
 👋 greet_user.sh (Hälsningsskript / Greeting Script)
 📂 backup.sh (Backup-skript / Backup Script)
-Installation & Användning / Installation & Usage
-Användningsområden / Use Cases
-Framtida Planer / Future Plans
+🚀 Installation & Användning / Installation & Usage
+🛠️ Användningsområden / Use Cases
+🌟 Framtida Planer / Future Plans
 🎯 Om Projektet / About the Project
-
 Svenska:
 Välkommen till mitt Bash-skriptäventyr! 🎉 Detta repo representerar min resa genom Bash-skriptning och Linux. I detta repo kommer det att komma Bash-skript av olika nivåer och med olika inriktningar. Det kommer även att dyka upp fler repos framöver, var och en med en specifik inriktning och nya utmaningar.
 
@@ -19,23 +16,17 @@ English:
 Welcome to my Bash script adventure! 🎉 This repo represents my journey through Bash scripting and Linux. In this repo, you will find Bash scripts of various levels and focuses. Additionally, more repos with specific focuses will be released in the future, each with new challenges.
 
 🔥 Syfte / Purpose
-
 Svenska:
+Syftet med detta projekt är att lära mig mer om Bash och dokumentera min utveckling inom skriptning och Linux-administration. Jag vill skapa användbara verktyg, automatisera uppgifter och utforska nya idéer under min resa.
 
-Lära mig mer om Bash och Linux-administration
-Skapa användbara verktyg för systemadministratörer
-Automatisera uppgifter som filhantering, loggar och nätverksövervakning
-Utforska och experimentera med nya idéer
 English:
+The purpose of this project is to learn more about Bash and document my progress in scripting and Linux administration. I want to create useful tools, automate tasks, and explore new ideas along the way.
 
-Learn more about Bash and Linux administration
-Create useful tools for system administrators
-Automate tasks like file management, logs, and network monitoring
-Explore and experiment with new ideas
 📂 Skript i Projektet / Scripts in the Project
+👋 greet_user.sh (Hälsningsskript / Greeting Script) 
+📂 backup.sh (Backup-skript / Backup Script)
 
-👋 greet_user.sh (Hälsningsskript / Greeting Script)
-Detta skript tar emot användarens namn och hälsar personen med en personlig hälsning.
+👋 greet_user.sh Detta skript tar emot användarens namn och hälsar personen med en personlig hälsning.
 English: This script takes the user’s name and greets them with a personalized message.
 
 Kodexempel / Code Example:
@@ -93,32 +84,38 @@ Användaren anger filtillägg och målkatalog / User specifies file extension an
 Skriptet söker och kopierar filer inom $HOME / The script searches and copies files within $HOME
 Grundläggande validering för att förhindra fel / Basic validation to prevent errors
 🚀 Installation & Användning / Installation & Usage
-
 1️⃣ Klona repot / Clone the repo
-git clone https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
+
+ clone https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
 cd Linux-Bash-Script-Journey
-
 2️⃣ Gör skripten körbara / Make the scripts executable
-chmod +x greet_user.sh backup.sh
 
+chmod +x greet_user.sh backup.sh
 3️⃣ Kör skripten / Run the scripts
 ./greet_user.sh
 ./backup.sh
 
-🛠️ Användningsområden för scripeten / Use Cases
+🛠️ Användningsområden / Use Cases
 
-greet_user.sh:
+👋 greet_user.sh
 
 Personlig användning: Använd detta skript för att få en personlig hälsning när du startar ett nytt terminalpass eller när du kör en bash-session.
 Automatisering i systemunderhåll: Integrera detta skript i större automationsflöden som ett sätt att välkomna användare som loggar in på systemet.
+Personal use: Use this script to receive a personalized greeting when starting a new terminal session or running a Bash session.
+Automation in system maintenance: Integrate this script into larger automation workflows as a way to welcome users logging into the system.
 
-backup.sh
+
+📂 backup.sh (Backup-skript / Backup Script)
+
 Regelbunden säkerhetskopiering: Använd detta skript för att skapa säkerhetskopior av specifika filtyper i din användarmapp, till exempel för dokument, bilder eller script.
 Batch-processer för säkerhetskopiering: Om du har många användare eller flera system kan du anpassa skriptet för att köras regelbundet för säkerhetskopiering av filer baserat på tillägg.
 Filhantering och organisation: Använd skriptet för att hålla ordning på viktiga filer och enkelt säkerhetskopiera dem vid behov.
+ 
+Regular backups: Use this script to create backups of specific file types in your user directory, such as documents, images, or scripts.
+Batch backup processes: If you have multiple users or systems, you can customize the script to run regularly for backing up files based on their extensions.
+File management and organization: Use the script to keep important files organized and easily back them up when needed.
 
 
 🌟 Framtida Planer / Future Plans
-
 ✅ Lägga till mer avancerade Bash-skript / Add more advanced Bash scripts
 ✅ Skapa fler repos med inriktningar på olika områden / Create more repos with focuses on different areas
