@@ -1,26 +1,19 @@
-# Linux Bash Script Journey
-
+Linux Bash Script Journey
 Welcome to my Bash script adventure! 🚀 This project is my ongoing journey into the world of Bash scripting, where I create and refine automation tools for Linux system administration. The goal is to make everyday tasks quicker and easier, while also leveling up my Linux and server management skills.
 
-## Purpose
-
-- Learn and grow my skills in Bash and Linux system administration.
-- Build cool and useful tools for system administrators (including myself!).
-- Automate those repetitive tasks that eat up time—like user management, system logs, and network monitoring.
-
+Purpose
+Learn and grow my skills in Bash and Linux system administration.
+Build cool and useful tools for system administrators (including myself!).
+Automate those repetitive tasks that eat up time—like user management, system logs, and network monitoring.
 This is my playground to experiment, build, and improve my Linux skills, one script at a time!
 
-## What's in the Project?
-
+What’s in the Project?
 This project showcases my progress in Bash scripting. Here you’ll find a growing collection of Bash scripts that I’ve written to learn new tricks, test out different solutions, and gradually level up to more advanced scripts that will help with Linux system administration tasks.
 
-## First Script: User Input Greeting (`greet_user.sh`)
-
+First Script: User Input Greeting (greet_user.sh)
 First up, we have a simple yet effective script that takes user input and greets the user with a personalized message. To make things more fun, I’ve added some color to the output—because why not?
 
-### Script Overview
-
-```bash
+Script Overview
 #!/bin/bash
 # Simple User Greeting
 # This script will greet the user in a personalized way
