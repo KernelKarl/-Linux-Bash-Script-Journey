@@ -1,42 +1,40 @@
-🖥️ Linux Bash Script Journey 🚀
-🌐 Innehållsförteckning / Table of Contents
-Om Projektet / About the Project
-Syfte / Purpose
-Skript i Projektet / Scripts in the Project
-greet_user.sh
-backup.sh
-Installation & Användning / Installation & Usage
-Användningsområden / Use Cases
-Framtida Planer / Future Plans
-🎯 Om Projektet / About the Project
-Svenska:
-Välkommen till mitt Bash-skriptäventyr! 
+# 🖥️ Linux Bash Script Journey 🚀
+
+## 🎯 Om Projektet / About the Project
+
+**Svenska:**  
+Välkommen till mitt Bash-skriptäventyr! 🎉  
 Detta repo är en samling av mina Bash-skript och verktyg som jag skapat under min resa genom Bash-skriptning och Linux. Jag kommer att fortsätta lägga till nya skript och projekt här.
 
-English:
-Welcome to my Bash script adventure! 🎉
+**English:**  
+Welcome to my Bash script adventure! 🎉  
 This repo is a collection of Bash scripts and tools I’ve created during my journey through Bash scripting and Linux. I will continue to add new scripts and projects here.
 
-🔥 Syfte / Purpose
-Svenska:
+---
+
+## 🔥 Syfte / Purpose
+
+**Svenska:**  
 Syftet med detta projekt är att lära mig mer om Bash och dokumentera min utveckling inom Linux-administration och skriptning. Jag vill skapa användbara verktyg, automatisera uppgifter och testa nya idéer.
 
-English:
+**English:**  
 The goal of this project is to deepen my knowledge of Bash and document my progress in Linux administration and scripting. I want to create useful tools, automate tasks, and experiment with new ideas.
 
-📂 Skript i Projektet / Scripts in the Project
-👋 greet_user.sh (Hälsningsskript / Greeting Script)
-Svenska:
+---
+
+## 📂 Skript i Projektet / Scripts in the Project
+
+### 👋 greet_user.sh (Hälsningsskript / Greeting Script)
+
+**Svenska:**  
 Detta skript tar emot användarens namn och hälsar på dem med ett personligt meddelande.
 
-English:
+**English:**  
 This script greets the user with a personalized message by asking for their name.
 
-Kodexempel / Code Example:
+**Kodexempel / Code Example:**
 
-bash
-Kopiera
-Redigera
+```bash
 #!/bin/bash
 echo "Vad heter du?"
 read name
@@ -73,8 +71,6 @@ Funktioner / Features:
 
 Användaren kan ange filtillägg / User can specify file extension.
 Skriptet söker och kopierar filer från hemkatalogen / The script searches and copies files from the home directory.
-⭐ Ny funktionalitet / New functionality: Nu kan användaren också ange en specifik mapp för säkerhetskopiering, och om en fil redan finns, skapas en tidsstämplad kopia för att förhindra att den skrivs över / The user can now also specify a backup directory, and if a file already exists, a timestamped copy will be created to avoid overwriting it.
-Förbättrad felhantering och loggning / Improved error handling and logging.
 🚀 Installation & Användning / Installation & Usage
 Svenska:
 
