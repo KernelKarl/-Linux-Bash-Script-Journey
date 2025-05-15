@@ -1,42 +1,47 @@
-# Linux Bash Script Journey 🖥️🚀
+█████████████████████████████████████████████████████████  
+█                                                       █  
+█                Linux Bash Script Journey              █  
+█                     🖥️🚀                               █  
+█                                                       █  
+█████████████████████████████████████████████████████████  
 
-## Innehållsförteckning
-- [Om Projektet](#om-projektet)
-- [Syfte](#syfte)
-- [Skript i Projektet](#skript-i-projektet)
-- [Installation & Användning](#installation--användning)
-- [Användningsområden](#användningsområden)
-- [Framtida Planer](#framtida-planer)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+▶ Innehållsförteckning  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+■ Om Projektet  
+■ Syfte  
+■ Skript i Projektet  
+■ Installation & Användning  
+■ Användningsområden  
+■ Framtida Planer  
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+▶ Om Projektet  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+Välkommen till mitt Bash-skriptäventyr! Detta repo samlar mina Bash-skript och verktyg som jag skapat under min resa inom Bash och Linux.  
+Jag kommer kontinuerligt att lägga till nya skript och projekt för att utveckla mina färdigheter och bidra med användbara lösningar.  
 
-## Om Projektet
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+▶ Syfte  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+Syftet med detta projekt är att fördjupa mina kunskaper inom Bash och dokumentera min utveckling inom Linux-administration och skriptning.  
+Jag vill skapa praktiska verktyg, automatisera återkommande uppgifter och testa nya idéer för att växa som Linux-användare och framtida säkerhetsspecialist.  
 
-Välkommen till mitt Bash-skriptäventyr! Detta repo samlar mina Bash-skript och verktyg som jag skapat under min resa inom Bash och Linux. Jag kommer kontinuerligt att lägga till nya skript och projekt för att utveckla mina färdigheter och bidra med användbara lösningar.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+▶ Skript i Projektet  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+■ greet_user.sh  
+Detta skript tar emot användarens namn och ger en personlig hälsning i terminalen.  
 
----
+■ backup.sh  
+Ett backup-skript som skapar säkerhetskopior av filer med ett specifikt filtillägg inom användarens hemkatalog.  
 
-## Syfte
+■ password_spray.sh (Planerat)  
+Ett enkelt lösenordsspray-script för inlärning av red team-tekniker.  
 
-Syftet med detta projekt är att fördjupa mina kunskaper inom Bash och dokumentera min utveckling inom Linux-administration och skriptning. Jag vill skapa praktiska verktyg, automatisera återkommande uppgifter och testa nya idéer för att växa som Linux-användare och framtida säkerhetsspecialist.
-
----
-
-## Skript i Projektet
-
-### greet_user.sh  
-Detta skript tar emot användarens namn och ger en personlig hälsning i terminalen.
-
-### backup.sh  
-Ett backup-skript som skapar säkerhetskopior av filer med ett specifikt filtillägg inom användarens hemkatalog.
-
-### password_spray.sh (Planerat)  
-Ett enkelt lösenordsspray-script för inlärning av red team-tekniker.
-
----
-
-## Installation & Användning
-
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+▶ Installation & Användning  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 1. Klona repot:  
-```bash
-git clone https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
+```bash  
+git clone https://github.com/KernelKarl/Linux-Bash-Script-Journey.git  
