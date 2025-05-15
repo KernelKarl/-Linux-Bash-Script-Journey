@@ -1,77 +1,42 @@
-🖥️ Linux Bash Script Journey 🚀
+# Linux Bash Script Journey 🖥️🚀
 
-🌐 Table of Contents / Innehållsförteckning
-About the Project / Om Projektet
-Purpose / Syfte
-Scripts in the Project / Skript i Projektet
-greet_user.sh
-backup.sh
-Installation & Usage / Installation & Användning
-Use Cases / Användningsområden
-Future Plans / Framtida Planer
-🎯 About the Project / Om Projektet
-Svenska:
-Välkommen till mitt Bash-skriptäventyr!  Detta repo samlar mina Bash-skript och verktyg som jag skapat under min resa inom Bash och Linux. Jag kommer att fortsätta lägga till nya skript och projekt här.
+## Innehållsförteckning
+- [Om Projektet](#om-projektet)
+- [Syfte](#syfte)
+- [Skript i Projektet](#skript-i-projektet)
+- [Installation & Användning](#installation--användning)
+- [Användningsområden](#användningsområden)
+- [Framtida Planer](#framtida-planer)
 
-English:
-Welcome to my Bash script adventure!  This repo is a collection of Bash scripts and tools I’ve created during my journey through Bash scripting and Linux. I’ll continue adding new scripts and projects here.
+---
 
-🔥 Purpose / Syfte
-Svenska:
-Syftet med detta projekt är att fördjupa mina kunskaper inom Bash och dokumentera min utveckling i Linux-administration och skriptning. Jag vill skapa användbara verktyg, automatisera uppgifter och testa nya idéer.
+## Om Projektet
 
-English:
-The goal of this project is to deepen my knowledge of Bash and document my progress in Linux administration and scripting. I aim to create useful tools, automate tasks, and experiment with new ideas.
+Välkommen till mitt Bash-skriptäventyr! Detta repo samlar mina Bash-skript och verktyg som jag skapat under min resa inom Bash och Linux. Jag kommer kontinuerligt att lägga till nya skript och projekt för att utveckla mina färdigheter och bidra med användbara lösningar.
 
-📂 Scripts in the Project / Skript i Projektet
-👋 greet_user.sh (Hälsningsskript / Greeting Script)
-Svenska:
-Detta skript tar emot användarens namn och ger en personlig hälsning.
-English:
-This script takes the user's name and greets them with a personalized message.
+---
 
-📂 backup.sh (Backup-skript / Backup Script)
-Svenska:
-Skapar säkerhetskopior av filer med ett visst filtillägg inom användarens hemkatalog.
-English:
-This script creates backups of files with a specific extension within the user's home directory.
+## Syfte
 
-🚀 Installation & Usage / Installation & Användning
-Svenska:
+Syftet med detta projekt är att fördjupa mina kunskaper inom Bash och dokumentera min utveckling inom Linux-administration och skriptning. Jag vill skapa praktiska verktyg, automatisera återkommande uppgifter och testa nya idéer för att växa som Linux-användare och framtida säkerhetsspecialist.
 
-Klona repot:
+---
+
+## Skript i Projektet
+
+### greet_user.sh  
+Detta skript tar emot användarens namn och ger en personlig hälsning i terminalen.
+
+### backup.sh  
+Ett backup-skript som skapar säkerhetskopior av filer med ett specifikt filtillägg inom användarens hemkatalog.
+
+### password_spray.sh (Planerat)  
+Ett enkelt lösenordsspray-script för inlärning av red team-tekniker.
+
+---
+
+## Installation & Användning
+
+1. Klona repot:  
+```bash
 git clone https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
-Ge skripten körbehörighet:
-chmod +x greet_user.sh backup.sh
-Kör skripten:
-./greet_user.sh
-./backup.sh
-English:
-
-Clone the repo:
-git clone https://github.com/KernelKarl/Linux-Bash-Script-Journey.git
-Give the scripts executable permissions:
-chmod +x greet_user.sh backup.sh
-Run the scripts:
-./greet_user.sh
-./backup.sh
-🧪 Use Cases / Användningsområden
-👋 greet_user.sh
-Svenska:
-Personlig användning: Få en hälsning vid terminalstart.
-Automatisering: Välkomna användare vid inloggning.
-English:
-Personal use: Get a greeting at terminal startup.
-Automation: Welcome users at login.
-
-📂 backup.sh
-Svenska:
-Regelbunden backup: Skapa säkerhetskopior av viktiga filer.
-Filhantering: Organisera och säkerhetskopiera filer enkelt.
-English:
-Regular backups: Create backups of important files.
-File management: Easily organize and back up files.
-
-🌟 Future Plans / Framtida Planer
-✅ Lägga till mer avancerade Bash-skript / Add more advanced Bash scripts.
-✅ Skapa fler repos med specifika inriktningar / Create more repos with specific focuses.
